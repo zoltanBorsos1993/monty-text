@@ -1,0 +1,8 @@
+* Mutatni a 3 bash-t
+* Megépíteni a mod_auth-ot
+(* Törölni az előző stacket: docker stack rm monty)
+* Elindítani: docker stack deploy monty
+* Log: docker service logs -ft monty_auth
+* Átírni a forráskódot és feltölteni
+* Frissítés: docker service update --force monty_auth
+* Várni a logokat
